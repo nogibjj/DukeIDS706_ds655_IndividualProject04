@@ -1,4 +1,29 @@
-# This is a default Python repository [![Python CI](https://github.com/DivyaSharma0795/Basic_Python_Repository/actions/workflows/main.yml/badge.svg)](https://github.com/DivyaSharma0795/Basic_Python_Repository/actions/workflows/main.yml)
+# Individual Project #4: Auto Scaling Flask App Using a Serverless Platform
+
+[![Install](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject03/actions/workflows/01_Install.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject03/actions/workflows/01_Install.yml)
+[![Black Formatter](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject03/actions/workflows/02_Format.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject03/actions/workflows/02_Format.yml)
+[![Lint](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject02/actions/workflows/03_Lint.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject02/actions/workflows/03_Lint.yml)
+[![Test](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject03/actions/workflows/04_Test.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject03/actions/workflows/04_Test.yml)
+
+#
+
+# Components:
+
+
+
+
+
+
+
+
+
+
+
+
+
+#
+
+## File Index
 
 Files in this repository include:
 

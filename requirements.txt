@@ -18,3 +18,7 @@ pytest
 ruff==0.0.284
 #SQL formatter
 prettytable
+#For this project specifically
+Flask
+gunicorn
+transformers
