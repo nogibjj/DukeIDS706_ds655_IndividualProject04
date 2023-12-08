@@ -24,4 +24,19 @@ if __name__ == '__main__':
 """
 acr: acrds655
 resource group: myResourceGroup
+
+[
+  {
+    "cloudName": "AzureCloud",
+    "id": "cb72c54e-4a31-4d9e-b14a-1ea36dfac94c",
+    "isDefault": true,
+    "name": "N/A(tenant level account)",
+    "state": "Enabled",
+    "tenantId": "cb72c54e-4a31-4d9e-b14a-1ea36dfac94c",
+    "user": {
+      "name": "ds655@duke.edu",
+      "type": "user"
+    }
+  }
+]
 """
