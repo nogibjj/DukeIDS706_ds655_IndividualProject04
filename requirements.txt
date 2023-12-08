@@ -19,6 +19,5 @@ ruff==0.0.284
 #SQL formatter
 prettytable
 #For this project specifically
-Flask==1.1.2
-transformers==4.5.1
-gunicorn
+Flask
+transformers
