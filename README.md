@@ -9,6 +9,15 @@
 
 #
 
+Input Screen (Generated from `index.html`)
+![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/b428211f-a0d8-4425-8667-c66cb07d8379)
+
+Text Entered: *"My Name is Divya and I "*
+
+Output Screen (Generated from `result.html`)
+![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/b930ab6d-45c0-4603-9851-82a42e326548)
+
+
 # Components:
 
 ### Flask App
