@@ -10,12 +10,15 @@
 #
 
 Input Screen (Generated from `index.html`)
-![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/b428211f-a0d8-4425-8667-c66cb07d8379)
+
+![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/b6680179-b6f2-4d9c-b4be-0bc85a61f63e)
+
 
 Text Entered: *"My Name is Divya and I "*
 
 Output Screen (Generated from `result.html`)
-![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/b930ab6d-45c0-4603-9851-82a42e326548)
+
+![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/090f5ddf-0cc9-47cf-8911-7d12538a06ca)
 
 
 # Components:
