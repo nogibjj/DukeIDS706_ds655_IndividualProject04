@@ -32,7 +32,7 @@ The Flask application serves as the backend for the web application. It exposes 
 ### Use of DockerHub
 DockerHub is used to store the Docker image of the application. Docker is a platform that allows us to package the application along with all of its dependencies into a standardized unit (a _Docker image_) for software development. [DockerHub](https://hub.docker.com/) is a cloud-based registry service that allows us to link to code repositories, build images and test them, stores manually pushed images, and links to Docker Cloud so you can deploy images to hosts.
 
-![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/7ede9da5-b61c-497a-a81d-95354191cc71)
+![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/162e4812-284d-4a9e-85bc-20a5f80521ba)
 
 
 ### Azure Web App
