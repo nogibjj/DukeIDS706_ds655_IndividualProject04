@@ -5,12 +5,13 @@ from transformers import pipeline
 app = Flask(__name__)
 
 # Load the model
-model = pipeline('text-generation', model='gpt2')
+model = pipeline("text-generation", model="gpt2")
 
-@app.route('/predict', methods=['POST'])
+
+@app.route("/predict", methods=["POST"])
 def predict():
     # Get the text from the POST request
-    text = request.json['text']
+    text = request.json["text"]
 
     # Use the model to generate text
     result = model(text)
@@ -18,25 +19,6 @@ def predict():
     # Return the model's prediction
     return jsonify(result)
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0')
-    
-"""
-acr: acrds655
-resource group: myResourceGroup
 
-[
-  {
-    "cloudName": "AzureCloud",
-    "id": "cb72c54e-4a31-4d9e-b14a-1ea36dfac94c",
-    "isDefault": true,
-    "name": "N/A(tenant level account)",
-    "state": "Enabled",
-    "tenantId": "cb72c54e-4a31-4d9e-b14a-1ea36dfac94c",
-    "user": {
-      "name": "ds655@duke.edu",
-      "type": "user"
-    }
-  }
-]
-"""
+if __name__ == "__main__":
+    app.run(host="0.0.0.0")
