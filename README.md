@@ -14,8 +14,14 @@
 ### Flask App
 The Flask application serves as the backend for the web application. It exposes two routes: the root ("/") route that renders the `index.html` template, and the "/analyze" route that accepts POST requests. When a POST request is sent to the "/analyze" route, the application takes the text from the request, sends it to the [*GPT-2*](https://huggingface.co/gpt2) model hosted on Hugging Face's API for sentence generation, and then renders the `result.html` template with the original text and the generated text.
 
+![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/a4a264b1-3d86-44b5-b463-bf68258c7fd4)
+
+
 ### Use of DockerHub
 DockerHub is used to store the Docker image of the application. Docker is a platform that allows us to package the application along with all of its dependencies into a standardized unit (a _Docker image_) for software development. [DockerHub](https://hub.docker.com/) is a cloud-based registry service that allows us to link to code repositories, build images and test them, stores manually pushed images, and links to Docker Cloud so you can deploy images to hosts.
+
+![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/7ede9da5-b61c-497a-a81d-95354191cc71)
+
 
 ### Azure Web App
 [Azure Web App](https://azure.microsoft.com/en-us/products/app-service/web) is a fully managed platform for building, deploying, and scaling web apps. It can be used to host the Dockerized Flask application. It provides automatic scaling, patching, CI/CD integration, and advanced security policies. In this case, Azure Web App is used to pull the Docker image from DockerHub and deploy it, making the sentence generation application accessible on the internet in the link [ds655-ind4.azurewebsites.net](https://ds655-ind4.azurewebsites.net/)
