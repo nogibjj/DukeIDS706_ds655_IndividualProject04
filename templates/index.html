@@ -8,14 +8,14 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: rgb(219, 97, 15);
+            background-color: rgb(16, 102, 222);
         }
 
         .container {
             width: 50%;
             margin: 100px auto;
             padding: 20px;
-            background-color: #3498db;
+            background-color: rgb(7, 22, 93);
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
             color: #fff;
@@ -65,10 +65,10 @@
     <div class="container">
         <h1>Sentence Completion</h1>
         <form action="/analyze" method="post" id="sentiment-form">
-            <label for="text">Enter Text:</label>
+            <label for="text">Enter Text to be completed:</label>
             <textarea id="text" name="text" rows="4" cols="50"></textarea>
             <br>
-            <input type="submit" value="Analyze">
+            <input type="submit" value="Complete">
             <input type="button" value="Reset" onclick="resetForm()">
         </form>
     </div>
