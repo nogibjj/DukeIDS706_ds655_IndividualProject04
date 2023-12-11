@@ -7,18 +7,43 @@
 
 # Sentence Completion using GPT-2
 
-This project is a Flask-based web application that utilizes the *GPT-2* model from Huggingface for sentence completion. The application is hosted on a Azure ACR using an image pushed to Dockerhub, which allows it to automatically scale based on demand. The project is set up with continuous integration/continuous deployment (CI/CD) using GitHub Actions, as indicated by the badges for Install, Black Formatter, Lint, and Test workflows. The user interface is generated from an index.html file, and an example of the application's functionality is shown with the input "My Name is Divya and I ". The project's assets, including images, are hosted on GitHub.
+This project is a Flask-based web application that utilizes the *GPT-2* model from Huggingface for sentence completion. The application is hosted on a Azure ACR using an image pushed to Dockerhub, which allows it to automatically scale based on demand. The project is set up with continuous integration/continuous deployment (CI/CD) using GitHub Actions, as indicated by the badges for Install, Black Formatter, Lint, and Test workflows. 
+
+The user interface is generated from an index.html file, and an example of the application's functionality is shown with the input "My Name is Divya and I ". The project's assets, including images, are hosted on GitHub.
+
+The App can be run by the user locally or can be accessed via the link provided earlier.
 
 #
 
-Input Screen (Generated from `index.html`)
+### Instructions
+
+There are two ways to access this application - 
+
+-  *Method 1*: Visit the link already hosted: Visit [ds655-ind4.azurewebsites.net](https://ds655-ind4.azurewebsites.net/) to use the web app
+-  *Method 2*: Create a copy of the app on your system and run it on your local home server (127.0.0.1)
+    Steps:
+   1. Clone This repository to your local machine
+   2. Run `make install` on your terminal to install all the required libraries
+   ```console
+     make install
+   ``` 
+   4. Enter the command `python app.py` into the terminal to start the app
+   ```console
+     python app.py
+   ``` 
+   5. Click on the localhost links that are generated (usually `http://127.0.0.1:5000`) - this should open the app on your browser
+   6. Press `Ctrl+C` to close the app
+
+### App Usage
+
+Landing Page: Input Screen (Generated from `index.html` in the templates folder)
 
 ![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/b6680179-b6f2-4d9c-b4be-0bc85a61f63e)
 
 
 Text Entered: *"My Name is Divya and I "*
 
-Output Screen (Generated from `result.html`)
+Output Screen (Generated from `result.html` in the templates folder)
 
 ![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/090f5ddf-0cc9-47cf-8911-7d12538a06ca)
 
