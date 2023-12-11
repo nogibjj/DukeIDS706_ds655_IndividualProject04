@@ -1,9 +1,8 @@
 # Individual Project #4: Auto Scaling Flask App Using a Serverless Platform
 
-[![Install](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject03/actions/workflows/01_Install.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject03/actions/workflows/01_Install.yml)
-[![Black Formatter](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject03/actions/workflows/02_Format.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject03/actions/workflows/02_Format.yml)
+[![Install](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/actions/workflows/01_Install.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/actions/workflows/01_Install.yml)[![Black Formatter](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/actions/workflows/02_Format.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/actions/workflows/02_Format.yml)
 [![Lint](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject02/actions/workflows/03_Lint.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject02/actions/workflows/03_Lint.yml)
-[![Test](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject03/actions/workflows/04_Test.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject03/actions/workflows/04_Test.yml)
+[![Test](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/actions/workflows/04_Test.yml/badge.svg)](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/actions/workflows/04_Test.yml)
 
 # Sentence Completion using GPT-2
 
