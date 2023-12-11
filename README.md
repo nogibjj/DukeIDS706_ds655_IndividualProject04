@@ -7,6 +7,8 @@
 
 # Sentence Completion using GPT-2
 
+This project is a Flask-based web application that utilizes the *GPT-2* model from Huggingface for sentence completion. The application is hosted on a Azure ACR using an image pushed to Dockerhub, which allows it to automatically scale based on demand. The project is set up with continuous integration/continuous deployment (CI/CD) using GitHub Actions, as indicated by the badges for Install, Black Formatter, Lint, and Test workflows. The user interface is generated from an index.html file, and an example of the application's functionality is shown with the input "My Name is Divya and I ". The project's assets, including images, are hosted on GitHub.
+
 #
 
 Input Screen (Generated from `index.html`)
