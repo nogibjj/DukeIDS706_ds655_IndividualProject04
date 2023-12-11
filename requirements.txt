@@ -6,7 +6,7 @@ pytest-cov
 pytest-playwright
 ruff
 nbval
-nbqa
+pylint
 
 #Project
 fastapi==0.85.0
