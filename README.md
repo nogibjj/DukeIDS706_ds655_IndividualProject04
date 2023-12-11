@@ -59,7 +59,16 @@ The Flask application serves as the backend for the web application. It exposes 
 ### Use of DockerHub
 DockerHub is used to store the Docker image of the application. Docker is a platform that allows us to package the application along with all of its dependencies into a standardized unit (a _Docker image_) for software development. [DockerHub](https://hub.docker.com/) is a cloud-based registry service that allows us to link to code repositories, build images and test them, stores manually pushed images, and links to Docker Cloud so you can deploy images to hosts.
 
-![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/7ede9da5-b61c-497a-a81d-95354191cc71)
+To push the Docker Image onto Dockerhub, we use the `build` command
+
+```console
+docker build -t image-name .
+```
+-    `-t image-name` assigns a tag or a name to the Docker image. The image name for this project is *divyasharma0795/ind4*
+-    `.` specifies the build context as the current directory. Docker will look for the Dockerfile in this directory.
+
+
+![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/a65ed8d6-e051-4881-b7c8-3eecbdb6ebd4)
 
 ### Azure Web App
 [Azure Web App](https://azure.microsoft.com/en-us/products/app-service/web) is a fully managed platform for building, deploying, and scaling web apps. It can be used to host the Dockerized Flask application. It provides automatic scaling, patching, CI/CD integration, and advanced security policies. In this case, Azure Web App is used to pull the Docker image from DockerHub and deploy it, making the sentence generation application accessible on the internet in the link [ds655-ind4.azurewebsites.net](https://ds655-ind4.azurewebsites.net/)
@@ -67,7 +76,7 @@ DockerHub is used to store the Docker image of the application. Docker is a plat
 ![image](https://github.com/nogibjj/DukeIDS706_ds655_IndividualProject04/assets/143483773/fae21845-e391-46c1-9280-20d73f691aa5)
 
 ### Video Demo 
-The demo can be found at - [Link]()
+The demo can be found at - [Link](https://streamable.com/uotm3e)
 
 
 
